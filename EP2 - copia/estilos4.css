@@ -1,0 +1,32 @@
+#fondo {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto ;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+}
+body{
+    width: 60%;
+    height: 900px;
+    margin: auto;
+    /*border: 1px solid red;*/
+    background-image: url(img/fondo3.gif);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+#cabeza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+}
+.pokedex a{
+    text-decoration: none;
+    color: white;
+}
