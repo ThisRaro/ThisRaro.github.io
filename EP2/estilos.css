@@ -1,0 +1,92 @@
+body{
+    width: 60%;
+    height: 900px;
+    margin: auto;
+    /*border: 1px solid red;*/
+    background-image: url(img/fondo3.gif);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+#cabeza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color:rgb(138, 47, 47);
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+}
+.pokedex a{
+    text-decoration: none;
+    color: white;
+}
+.inicio{
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-top: 2px ;
+    border-bottom: 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.inicio p:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+.registro{
+    background-color: black;
+    color: white;
+    border: 15px solid black;
+    border-top: 2px ;
+    border-bottom: 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.registro p:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+#cuerpo{
+    margin: auto;
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    font-family: "Anton", sans-serif;
+    color: white;
+}
+#purpura{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+#escarlata{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: center;
+    border-top: 3px solid gray;
+    border-bottom: 5px solid white;
+}
+#cadera{
+    background-color: aliceblue;
+    border: 5px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#pie{
+    background-color: cornsilk;
+    border: 5px solid white;
+    padding: 20px;
+    text-align: end;
+    font-family: "Jaro", sans-serif;
+}
+#pie #uña{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Jaro", sans-serif;
+}

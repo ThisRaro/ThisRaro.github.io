@@ -1,0 +1,96 @@
+body{
+    width: 60%;
+    height: 900px;
+    margin: auto;
+    /*border: 1px solid red;*/
+    background-image: url(img/fondo3.gif);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+#cabeza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color:rgb(138, 47, 47);
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+}
+.pokedex a{
+    text-decoration: none;
+    color: white;
+}
+.inicio{
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-top: 2px ;
+    border-bottom: 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.inicio p:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+.registro{
+    background-color: black;
+    color: white;
+    border: 15px solid black;
+    border-top: 2px ;
+    border-bottom: 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.registro p:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+#cuerpo{
+    margin: auto;
+    background-image: linear-gradient(125deg, #ff75f7 0, #ff70fc 10%, #ff6cfb 20%, #ff66f5 30%, #ea5fea 40%, #be55d8 50%, #934bc4 60%, #6c42b1 70%, #473ba0 80%, #1c3490 90%, #002f83 100%);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    font-family: "Concert One", sans-serif;
+}
+#lista{
+    border: 3px solid white;
+    width: 260px;
+    height: 800px;
+    font-size: x-large;
+}
+#pkdex{
+    border: 3px solid green;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#cadera{
+    background-color: aliceblue;
+    border: 5px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Jaro", sans-serif;
+}
+#pie{
+    background-color: cornsilk;
+    border: 5px solid white;
+    padding: 20px;
+    text-align: end;
+    font-family: "Jaro", sans-serif;
+}
+#pie #uña{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Jaro", sans-serif;
+}
