@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    background-image: url(img/machu-picchu_5ff969ae_1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
+}
+#cabeza
+{
+    width: 100%;
+    margin: auto;
+    height: 1200px;
+}
+#navegador
+{
+    background-color: palegoldenrod;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 50px;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navegador li
+{
+    text-decoration: none;
+    list-style: none;
+
+}
+#navegador li a
+{
+    text-decoration: none;
+    color: brown;
+}
+a:hover
+{
+    font-size: 50px;
+    transition: .5s;
+}
+#navegador img
+{
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+#cuerpo
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 65%;
+    margin: 20px;
+}
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    border: 3px solid black;
+}
+td,th
+{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+th
+{
+    background-color: blanchedalmond;
+}
+#tabla1
+{
+    font-size: 25px;
+    width: 100%;
+}
+#tabla2
+{
+    text-align: justify;
+    background-color: red;
+    color: white;
+}
+.tabla 
+{
+    text-align: justify;
+    background-color: goldenrod;
+}
+#tablae2
+{
+    text-align: justify;
+    background-color: goldenrod;
+    color: white;
+}
+.tablae
+{
+    text-align: justify;
+    background-color: red;
+    color: white;
+}
+#cuello
+{
+    background-color: blanchedalmond;
+    border: 1px solid gold;
+    position: sticky;
+    top: 25%;
+    right: 2%;
+    justify-content: center;
+    text-align: center;
+    width: 26%;
+    float:right;
+    font-size: 120%;
+    padding: 30px;
+    border-radius: 15px ;
+}
+#cuello p
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#cuello p select
+{
+    font-size: 100%;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    width: 100%;
+}
+#cuello p input
+{
+    font-size: 100%;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    width: 100%;
+}
+#cuello iframe
+{
+    font-size: 100%;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    width: 100%;
+}
+#pie
+{
+    background-color:peru;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 5px;
+    width: 66%;
+    border: 1px dotted black;
+}
+#pie img
+{
+    height: 50px;
+}
